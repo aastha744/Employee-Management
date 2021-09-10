@@ -1,0 +1,100 @@
+/*-- Body Reset --*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #454a50;
+}
+
+.top-bar{
+    background: #1d1f2cde;
+    height: 2.8rem;
+    padding: .5rem 0;
+}
+
+.top-bar a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+/*============= NAVIGATION =============*/
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+    z-index: 1;
+}
+
+.nav-item{
+    padding: .5rem;
+}
+
+.nav-link{
+    color: #5b5555!important;
+}
+.nav-link.active,.nav-link:hover{
+    color: #3548b6!important;
+}
+
+
+#aboutus{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutus h2{
+    margin-bottom: 25px;
+}
+.font-size-5{
+    font-size: 1.5rem;
+    color:white;
+}
+#footer{
+    padding: 3rem 0;
+    background-color: #0b0b0fde;
+}
+
+#footer .company .d-flex>a
+{
+    text-decoration:none;
+    font-size:.9rem;
+    margin:.3rem 0;
+    color:white;
+}
+#footer .company .d-flex>a:hover{
+    color:#3548b6;
+}
+#footer .contact{
+    padding:3rem 0;
+    color:white;
+}
+#footer .contact>.d-flex input.form-control{
+    border:none;
+    width:200px;
+    font-size:1rem;
+    margin:.8rem 0;
+    background-color:white;
+    border-radius:4rem
+}
+    #footer .contact>.d-flex input.form-control::placeholder{
+        font-size:.8rem;
+        padding:0 1rem
+    }
+    #footer .contact>button{
+        background-color:#3548b6;
+        color:white;
+        padding:.3rem 1.5rem;
+        border-radius:4rem;
+        font-size:.8rem;
+        margin:50px;
+    }
+    #footer .contact>button:hover{
+        background-color:grey;
+    }
